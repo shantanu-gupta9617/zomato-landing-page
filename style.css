@@ -166,6 +166,33 @@
     height: 100%
 
   }
+  .stay_updated_container{
+    font-size: 15px;
+    margin-top: 50px;
+    margin-bottom:25px;
+  }
+  .stay_updated_form{
+    display:flex;
+    padding-top:20px;
+    align-items: center;
+    
+  }
+  .stay_updated_form input{
+    padding:8px;
+    border-radius:5px;
+    
+    border-color: rgb(252, 204, 212);
+    background-color:rgb(248, 232, 242);
+    margin-right: 10px;
+
+  }
+  .stay_updated_form button{
+    
+    padding:20px;
+    font-weight: bold;
+  }
+
+
   @media (min-width: 768px) {
     .navbar {
       justify-content: space-between;
@@ -217,7 +244,39 @@
     {
       width:100%;
       font-size: 40px;
+
     }
+    .stay_updated_container{
+      width:100%;
+      justify-content:space-evenly;
+      position:relative;
+    }
+    .stay_updated_text{
+      font-size: 40px;
+    margin-top: 50px;
+    width: 100%;
+    
+    padding-left: 150px;
+    
+    
+    
+    
+    }
+    .stay_updated_form{
+      width:100%;
+      display: flex;
+      justify-content: center;
+      position: absolute;
+    }
+    .stay_updated_form input{
+      width:300px;
+      
+      padding:15px;
+    }
+    .stay_updated_form button{
+      padding:15px 15px;
+    }
+
   }
   
   @media (min-width: 1020px) {
@@ -242,6 +301,9 @@
     }
     .explore_menu_text{
       font-size:50px;
+    }
+    .stay_updated_text{
+      padding-left: 200px;
     }
   }
 
